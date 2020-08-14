@@ -1,0 +1,45 @@
+.infoBox {
+    flex: 1;
+    margin-bottom: 2rem;
+  }
+
+  .casesBox:hover{
+    border-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    animation-duration: 0.25s;
+    border-left: 15px solid #EBD900;
+    box-shadow: 0 5px 5px rgba(255, 255, 255, 0.30), 0 5px 10px rgba(255, 255, 255, 0.50);
+  }
+
+  .recoveredBox:hover{
+    border-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    animation-duration: 0.25s;
+    border-left: 15px solid #7dd71d;
+    box-shadow: 0 5px 5px rgba(255, 255, 255, 0.30), 0 5px 10px rgba(255, 255, 255, 0.50);
+  }
+
+  .deathsBox:hover {
+    border-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    animation-duration: 0.25s;
+    border-left: 15px solid #CC1034;
+    box-shadow: 0 5px 5px rgba(255, 255, 255, 0.30), 0 5px 10px rgba(255, 255, 255, 0.50);
+  }
+  
+  .infoCasesBox {
+    color: #cc1034;
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .infoTotalBox {
+    color: #6c757d;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 15px;
+  }

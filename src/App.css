@@ -1,0 +1,46 @@
+*{
+ margin: 0; 
+}
+.app {
+  background-color: #282c34;
+  /* width: auto; */
+  /* display: flex; */
+  /* display: none; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* justify-content: space-evenly; */
+  padding: 20px;
+  /* font-size: calc(10px + 2vmin); */
+  color: white;
+}
+
+.appLeft{
+  /* flex: 0.9; */
+  display: flex;
+  justify-content: space-evenly;
+  /* text-align: center; */
+}
+
+.appInfoBoxs{
+  flex: 0.3;
+  text-align: center;
+}
+
+.appRight{
+  flex: 0.4;
+  height: 550px;
+}
+
+.appDropdown{
+  flex: 0.2;
+}
+
+
+@media (max-width: 990px){
+  .app{
+    flex-direction: column;
+  }
+  .appLeft{
+    flex-direction: column;
+  }
+}
