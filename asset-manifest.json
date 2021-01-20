@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Covid-19-React-Leaflet/static/css/main.ebb2d263.chunk.css",
+    "main.js": "/Covid-19-React-Leaflet/static/js/main.697d50f5.chunk.js",
+    "main.js.map": "/Covid-19-React-Leaflet/static/js/main.697d50f5.chunk.js.map",
+    "runtime-main.js": "/Covid-19-React-Leaflet/static/js/runtime-main.539042b7.js",
+    "runtime-main.js.map": "/Covid-19-React-Leaflet/static/js/runtime-main.539042b7.js.map",
+    "static/css/2.7c35e809.chunk.css": "/Covid-19-React-Leaflet/static/css/2.7c35e809.chunk.css",
+    "static/js/2.47f18041.chunk.js": "/Covid-19-React-Leaflet/static/js/2.47f18041.chunk.js",
+    "static/js/2.47f18041.chunk.js.map": "/Covid-19-React-Leaflet/static/js/2.47f18041.chunk.js.map",
+    "index.html": "/Covid-19-React-Leaflet/index.html",
+    "precache-manifest.def5080c4756ffe49255925ed8fed5b0.js": "/Covid-19-React-Leaflet/precache-manifest.def5080c4756ffe49255925ed8fed5b0.js",
+    "service-worker.js": "/Covid-19-React-Leaflet/service-worker.js",
+    "static/css/2.7c35e809.chunk.css.map": "/Covid-19-React-Leaflet/static/css/2.7c35e809.chunk.css.map",
+    "static/css/main.ebb2d263.chunk.css.map": "/Covid-19-React-Leaflet/static/css/main.ebb2d263.chunk.css.map",
+    "static/js/2.47f18041.chunk.js.LICENSE.txt": "/Covid-19-React-Leaflet/static/js/2.47f18041.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.539042b7.js",
+    "static/css/2.7c35e809.chunk.css",
+    "static/js/2.47f18041.chunk.js",
+    "static/css/main.ebb2d263.chunk.css",
+    "static/js/main.697d50f5.chunk.js"
+  ]
+}
