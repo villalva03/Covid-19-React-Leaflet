@@ -1,12 +1,12 @@
 import React, {useState, useEffect} from 'react';
-import InfoBox from './components/InfoBox';
-import Map from './components/Map';
-import Table from './components/Table';
+import InfoBox from './components/infoBox/InfoBox';
+import Map from './components/map/Map';
+import Table from './components/table/Table';
 import axios from 'axios';
 import './App.css';
 import { makeStyles } from '@material-ui/core/styles';
 import { MenuItem, FormControl, Select, Card, CardContent } from '@material-ui/core';
-import { sortData } from './components/util';
+import { sortData } from './components/util/util';
 import "leaflet/dist/leaflet.css";
 
 
@@ -101,8 +101,10 @@ function App() {
           <Select className={classes.root} onChange={onCountryChange} variant='outlined' value={country}>
             <MenuItem value='Global'>Global</MenuItem>
             {
-              countries.map((country)=>
-                <MenuItem value={country.value}>{country.name}</MenuItem>
+              countries.map((country, index)=>
+                <div key={index}>
+                  <MenuItem value={country.value}>{country.name}</MenuItem>
+                </div>
               )
             }
           </Select>

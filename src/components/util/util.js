@@ -61,7 +61,7 @@ export const dataMap = (data, casesType = 'cases', code) =>
   ));
 
   export const dataMapGlobal = (data, casesType = 'cases') => 
-  data.map((country) => (
+  data.map((country, index) => (
     <Circle
       center={[country.countryInfo.lat, country.countryInfo.long]}
       fillOpacity={0.4}
@@ -70,15 +70,16 @@ export const dataMap = (data, casesType = 'cases', code) =>
       radius={
         Math.sqrt(country[casesType]) * casesTypeColors[casesType].multiplier
       }
+      key={index}
     >
-    <Popup>
-      <div className='infoContainer'>
-        <div className='infoFlag' style={{ backgroundImage: `url(${country.countryInfo.flag})` }}/>
-        <div className='infoName'>{country.country}</div>
-        <div className='infoCases'>Cases: {country.cases}</div>
-        <div className='infoRecovered'>Recovered: {country.recovered}</div>
-        <div className='infoDeaths'>Deaths: {country.deaths}</div>
-      </div>
-    </Popup>
+      <Popup>
+        <div className='infoContainer'>
+          <div className='infoFlag' style={{ backgroundImage: `url(${country.countryInfo.flag})` }}/>
+          <div className='infoName'>{country.country}</div>
+          <div className='infoCases'>Cases: {country.cases}</div>
+          <div className='infoRecovered'>Recovered: {country.recovered}</div>
+          <div className='infoDeaths'>Deaths: {country.deaths}</div>
+        </div>
+      </Popup>
     </Circle>
-  ));
+    ));
