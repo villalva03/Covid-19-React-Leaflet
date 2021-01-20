@@ -2,12 +2,13 @@
   "name": "covid19-20",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://villalva03.github.io/Covid-19-React-Leaflet",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "leaflet": "^1.6.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -15,6 +16,8 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -34,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
