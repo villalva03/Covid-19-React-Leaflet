@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e47e48bb67f3e9b908633cf6d4a7aaa0",
+    "revision": "0419198f14529a32978d1f1a9bd05855",
     "url": "/Covid-19-React-Leaflet/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Covid-19-React-Leaflet/static/css/2.7c35e809.chunk.css"
   },
   {
-    "revision": "959d0bf4c867af605d23",
+    "revision": "b44060671ce505795c8f",
     "url": "/Covid-19-React-Leaflet/static/css/main.ebb2d263.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Covid-19-React-Leaflet/static/js/2.47f18041.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "959d0bf4c867af605d23",
-    "url": "/Covid-19-React-Leaflet/static/js/main.51179159.chunk.js"
+    "revision": "b44060671ce505795c8f",
+    "url": "/Covid-19-React-Leaflet/static/js/main.0d48a15c.chunk.js"
   },
   {
     "revision": "c1ab427ad03aa32a1cc8",
