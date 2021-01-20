@@ -101,10 +101,8 @@ function App() {
           <Select className={classes.root} onChange={onCountryChange} variant='outlined' value={country}>
             <MenuItem value='Global'>Global</MenuItem>
             {
-              countries.map((country, index)=>
-                <div key={index}>
-                  <MenuItem value={country.value}>{country.name}</MenuItem>
-                </div>
+              countries.map((country)=>
+                <MenuItem value={country.value}>{country.name}</MenuItem>
               )
             }
           </Select>
